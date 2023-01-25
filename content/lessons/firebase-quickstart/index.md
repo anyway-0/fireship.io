@@ -229,7 +229,7 @@ Now it's time to give our user a way to create database records. Let's start by 
   </section>
 ```
 
-Because the user must be signed-in, our code only runs when we have access to a user. The `thingsRef` points to a collection the database and provides methods to read and write to this location. Create a new document in the collection with `add`, where the argument is the actual data you want saved on the document.  
+Because the user must be signed-in, our code only runs when we have access to a user. The `thingsRef` points to a collection in the database and provides methods to read and write to this location. Create a new document in the collection with `add`, where the argument is the actual data you want saved on the document.  
 
 {{< file "js" "app.js" >}}
 ```javascript
